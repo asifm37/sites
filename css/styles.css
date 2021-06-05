@@ -1,0 +1,171 @@
+/* ---------- CSS Tag Selectors ---------- */
+body {
+  margin: 0;
+  text-align: center;
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 6.5rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.9rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  color: #11999E;
+}
+
+hr {
+  width: 4%;
+  border: 10px dotted #EEEEEE;
+  border-bottom: none;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #caf6f6;
+}
+
+/* --------- CSS Class Selectors --------- */
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 160px;
+}
+
+.middle-container {
+  margin: 100px auto;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 30px 0 20px;
+}
+
+.cloud-img-top {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.mountain {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.trekking {
+  width: 20%;
+}
+
+.coder {
+  width: 25%;
+}
+
+.cloud-img-bottom {
+  position: absolute;
+  left: 320px;
+  bottom: 320px;
+}
+
+.profile-pic {
+  height: 200px;
+  width: 200px;
+  margin-top: 30px;
+}
+
+.intro {
+  width: 35%;
+  margin: auto;
+}
+
+.skill-row {
+  /* display: inline-block; */
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.skill-img {
+  height: 200px;
+  width: 200px;
+  /* width: 25%; */
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-img-logo {
+  /* width: 25%; */
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  margin: 50px auto;
+}
+
+.contact-msg {
+  width: 40%;
+  margin: 40px auto;
+}
+
+.contact-me-button {
+  border-radius: 10px;
+  line-height: 10px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding: 20px;
+  background-color: #3DAAAA;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.contact-me-button:hover {
+  background: #6BDADA;
+  color: black;
+}
+
+.footer-link {
+  font-weight: bold;
+  color: #11999E;
+  margin: 10px 20px;
+}
+
+.copyright-string {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+
+/* ---------- CSS ID Selectors  ---------- */
+/* #name {
+  background-color: red;
+} */
+/* ------ CSS PsuedoClass Selectors ------ */
+/* div:hover {
+  background-color: gold;
+} */
