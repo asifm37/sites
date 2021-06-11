@@ -78,18 +78,6 @@ p {
   right: 30%;
 }
 
-@media (max-width: 990px) {
-  .title-img {
-    position: static;
-    transform: rotate(0);
-    width: 65%;
-  }
-
-  #title {
-    text-align: center;
-  }
-}
-
 /* Faature Section */
 #features {
   position: relative;
@@ -155,4 +143,24 @@ p {
 
 .copyright {
   font-size: 0.8rem;
+}
+
+/* Mobile Version Style Override */
+@media (max-width: 990px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    width: 65%;
+    margin-top: 5%;
+  }
+
+  #title .container-fluid{
+    text-align: center;
+  }
+  .big-heading {
+    font-size: 3rem;
+  }
+  .testimonial-text {
+    font-size: 1.8rem;
+  }
 }
