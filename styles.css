@@ -1,0 +1,69 @@
+body {
+  text-align: center;
+  background-color: #eeeeee;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #323232;
+}
+
+a:hover {
+  color: black;
+}
+
+/* Nav Bar */
+.navbar-brand {
+  font-family: 'Amaranth', sans-serif;
+  font-size: 1.8rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: red;
+}
+
+/* Heading Section */
+.title-heading {
+  font-weight: 500;
+}
+
+/* Album Section */
+.site-thumbnail {
+  width: 100%;
+}
+
+.card:hover {
+  margin: 2%;
+}
+
+.card-body {
+  text-align: left;
+}
+
+.card-text {
+  font-weight: 300;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Footer Section */
+#contactme {
+  position: relative;
+}
+.social-icon {
+  margin: 8px;
+}
+
+.f-icon {
+  color: #a7aeb5;
+  margin-bottom: -10px;
+}
+
+.float-end {
+  position: absolute;
+  bottom: 0;
+  right:10px;
+  margin-bottom: 0;
+}
