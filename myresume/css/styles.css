@@ -49,6 +49,22 @@ a:hover {
 }
 
 /* --------- CSS Class Selectors --------- */
+@media (min-width: 1000px) {
+  .cloud-img-bottom {
+    position: absolute;
+    left: 220px;
+    bottom: 280px;
+    width: 15%;
+  }
+  .cloud-img-top {
+    position: absolute;
+    right: 100px;
+    top: 60px;
+    width: 15%;
+  }
+
+}
+
 .top-container {
   background-color: #EAF6F6;
   position: relative;
@@ -66,8 +82,8 @@ a:hover {
 
 .cloud-img-top {
   position: absolute;
-  right: 300px;
-  top: 50px;
+  right: 100px;
+  top: 60px;
 }
 
 .mountain {
@@ -85,8 +101,8 @@ a:hover {
 
 .cloud-img-bottom {
   position: absolute;
-  left: 24rem;
-  bottom: 23rem;
+  left: 220px;
+  bottom: 280px;
 }
 
 .profile-pic {

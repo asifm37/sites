@@ -68,3 +68,13 @@ a:hover {
   right:10px;
   margin-bottom: 0;
 }
+
+@media (max-width: 800px) {
+  .navbar-brand {
+    font-size: 1.4rem;
+  }
+
+  .float-text {
+    display: none;
+  }
+}
