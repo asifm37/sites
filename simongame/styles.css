@@ -91,10 +91,12 @@ footer {
     margin-bottom: 8%;
   }
 
+  .container {
+    width: 100%;
+  }
+
   .btn {
     margin: 3px;
-    height: 13.5rem;
-    width: 13.5rem;
     border: 8px solid black;
   }
 
