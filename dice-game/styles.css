@@ -55,6 +55,9 @@ footer {
 }
 
 @media (max-width: 1395px) {
+  body {
+    margin: 40% auto;
+  }
   .container {
     width: 85%;
   }
