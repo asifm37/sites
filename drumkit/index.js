@@ -23,7 +23,7 @@ document.addEventListener('keydown', function (event) {
 });
 
 function playDrum(key) {
-  var trackToPlay = audioMap[key];
+  var trackToPlay = audioMap[key.toLowerCase()];
   if (trackToPlay) {
     var curAudioFile = 'sounds/' + trackToPlay + '.mp3';
     audio = new Audio(curAudioFile).play();
@@ -32,7 +32,7 @@ function playDrum(key) {
 
 function addAnimation(currentKey) {
   var animatingCSSClass = 'pressed';
-  var curButton = document.querySelector("." + currentKey);
+  var curButton = document.querySelector("." + currentKey.toLowerCase());
   curButton.classList.add(animatingCSSClass);
   setTimeout(function () {
     curButton.classList.remove(animatingCSSClass);

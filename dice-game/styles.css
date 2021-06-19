@@ -7,7 +7,6 @@
 .dice {
   text-align: center;
   display: inline-block;
-
 }
 
 body {
@@ -20,6 +19,22 @@ h1 {
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
   color: #4ECCA3;
+}
+
+.reload-icon {
+  background: transparent;
+  border: none;
+  display: block;
+  outline: 0;
+  cursor: pointer;
+  padding: 1%;
+  margin: 4% auto;
+  color: #EEEEEE;
+}
+
+.spin-animation {
+  transform: rotate(360deg);
+  transition: all 0.4s ease-in;
 }
 
 p {
@@ -37,5 +52,20 @@ footer {
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
+}
 
+@media (max-width: 1395px) {
+  .container {
+    width: 85%;
+  }
+  h1 {
+    font-size: 5.4rem;
+  }
+  img {
+    width: 90%;
+  }
+  .reload-icon {
+    padding: 2%;
+    margin: 5% auto;
+  }
 }
