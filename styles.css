@@ -52,6 +52,7 @@ a:hover {
 #contactme {
   position: relative;
 }
+
 .social-icon {
   margin: 8px;
   color: #8f8f8f;
@@ -65,13 +66,26 @@ a:hover {
 .float-end {
   position: absolute;
   bottom: 0;
-  right:10px;
+  right: 10px;
   margin-bottom: 0;
 }
 
 @media (max-width: 800px) {
+  .title-heading {
+    font-size: 1.5rem;
+  }
+
+  .fa-7x {
+    width: 16%;
+    height: 16%;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+
   .navbar-brand {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   .float-text {
