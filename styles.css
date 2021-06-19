@@ -70,6 +70,7 @@ a:hover {
   margin-bottom: 0;
 }
 
+/* Mobile Responsive Overrides */
 @media (max-width: 800px) {
   .title-heading {
     font-size: 1.5rem;
@@ -84,8 +85,17 @@ a:hover {
     font-size: 1rem;
   }
 
+  .head-mobile {
+    margin-bottom: -50px;
+  }
+
   .navbar-brand {
     font-size: 1.2rem;
+  }
+
+  .card-title {
+    font-weight: 600;
+    font-size: 0.9rem;
   }
 
   .float-text {
