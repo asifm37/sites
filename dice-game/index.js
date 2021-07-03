@@ -3,6 +3,7 @@ document.querySelector('.reload-icon').addEventListener('click', function() {
   setTimeout(function() {
     document.querySelector('.reload-icon').classList.remove('spin-animation');
   }, 500);
+  new Audio("sound/roll.wav").play()
   gameLogic();
 });
 
