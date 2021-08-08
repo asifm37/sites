@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   text-align: center;
   background-color: #eeeeee;
@@ -9,7 +13,8 @@ a {
   color: #323232;
 }
 
-a:hover {
+a:hover,
+.social-icon:hover {
   color: black;
 }
 
@@ -31,12 +36,32 @@ a:hover {
 }
 
 /* Album Section */
+.section-heading {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.section-heading::before,
+.section-heading::after {
+  content: "";
+  flex: 1;
+  margin: 0 1.25rem;
+  height: 2px;
+  background: linear-gradient(to left, #323232, gray, white);
+}
+
+.section-heading::after {
+  background: linear-gradient(to right, #323232, gray, white);
+}
+
 .site-thumbnail {
   width: 100%;
 }
 
 .card:hover {
-  margin: 2%;
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, .4));
+  transition: 0.3s;
 }
 
 .card-body {
@@ -58,16 +83,21 @@ a:hover {
   color: #8f8f8f;
 }
 
-.f-icon {
-  color: #a7aeb5;
-  margin-bottom: -10px;
+.top-of-site-link {
+  opacity: 0;
+  visibility: hidden;
+  transition: .2s;
+  position: fixed;
+  bottom: 1.2rem;
+  right: 1.5rem;
+  z-index: 15;
+  color: white;
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, .3));
 }
 
-.float-end {
-  position: absolute;
-  bottom: 0;
-  right: 10px;
-  margin-bottom: 0;
+.top-of-site-link[data-visible=true] {
+  opacity: 1;
+  visibility: visible;
 }
 
 /* Mobile Responsive Overrides */
@@ -98,7 +128,7 @@ a:hover {
     font-size: 0.9rem;
   }
 
-  .float-text {
-    display: none;
+  .card-text {
+    font-size: 0.75rem;
   }
 }
