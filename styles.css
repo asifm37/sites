@@ -13,8 +13,7 @@ a {
   color: #323232;
 }
 
-a:hover,
-.social-icon:hover {
+a:hover{
   color: black;
 }
 
@@ -27,7 +26,6 @@ a:hover,
 .nav-link {
   font-size: 1.2rem;
   font-weight: 400;
-  color: red;
 }
 
 .contact-btn {
@@ -87,7 +85,7 @@ a:hover,
 .section-heading::after {
   content: "";
   flex: 1;
-  margin: 0 1.25rem;
+  margin: 0 1.25vw;
   height: 2px;
   background: linear-gradient(to left, #323232, gray, white);
 }
@@ -119,9 +117,73 @@ a:hover,
   position: relative;
 }
 
+.social-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .social-icon {
   margin: 8px;
   color: #8f8f8f;
+}
+
+.footer-link {
+  position: relative;
+}
+
+.footer-link::after,
+.footer-link::before {
+  --arrow-size: 10px;
+  --scale: 0;
+  position: absolute;
+  left: 50%;
+  top: 0.2rem;
+  margin: 0;
+  transform: translateX(-50%) translateY(var(--translate-y, 0)) scale(var(--scale));
+  transition: transform 150ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  /* transition: 150ms transform; */
+  transform-origin: bottom center;
+}
+
+.footer-link::before {
+  --translate-y: calc(-100% - var(--arrow-size));
+  content: attr(data-tooltip);
+  width: max-content;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  text-align: center;
+  color: white;
+  background: var(--social-tool-color, black);
+}
+
+.footer-link::after {
+  --translate-y: calc(-1 * var(--arrow-size));
+  content: '';
+  border: var(--arrow-size) solid transparent;
+  border-top-color: var(--social-tool-color, black);
+  transform-origin: top center;
+}
+
+.footer-link:hover::after,
+.footer-link:hover::before {
+  --scale: 1;
+}
+
+.social-icon:hover {
+  color: var(--social-tool-color);
+}
+
+.footer-link[data-tooltip="LinkedIn"] {
+  --social-tool-color: #0274b3;
+}
+
+.footer-link[data-tooltip="Instagram"] {
+  --social-tool-color: #e03466;
+}
+
+.footer-link[data-tooltip="Email Me"] {
+  --social-tool-color: #d3291c;
 }
 
 .top-of-site-link {
@@ -145,6 +207,10 @@ a:hover,
 @media (max-width: 800px) {
   .title-heading {
     font-size: 1.5rem;
+  }
+
+  .section-heading {
+    font-size: 1.1rem;
   }
 
   .fa-7x {
