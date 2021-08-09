@@ -1,6 +1,8 @@
 # Asif's Personal Websites
 
-* Checkout My Online Resume here: [Asif's Resume](https://asifm37.github.io/sites/myresume/)
-* Checkout Silly Tinder for Dog Site here: [TinDog](https://asifm37.github.io/sites/tindog/)
+## My Web Development Blog
+This site is an Ablum for all the Static (Mobile Responsive) Website which I have created during my Web Development Learning Journey.
 
-And many more to come.
+Click Here 👉 [https://asifm37.github.io/sites/]
+
+  [https://asifm37.github.io/sites/]: https://asifm37.github.io/sites/ "Asif M | Web Development Blog - HTML, CSS & JS"
