@@ -1,0 +1,97 @@
+[{
+    "heading": "Personal Website Challenges",
+    "link": "https://github.com/asifm37/sites",
+    "tooltip": "Checkout Project at GitHub",
+    "sites": [{
+        "title": "My Online Resume (Dummy)",
+        "desc": "Developed Using Only HTML+CSS",
+        "img": "asif-profile.png",
+        "link": "myresume/index.html"
+      },
+      {
+        "title": "TinDog: Tinder for Dogs? (Dummy)",
+        "desc": "Check out our TinDog Website (FrontEnd Only)",
+        "img": "tindog.png",
+        "link": "tindog/index.html"
+      },
+      {
+        "title": "My First Basic Online Resume",
+        "desc": "The Journey Started Here, Using only Pure HTML",
+        "img": "pure-html.png",
+        "link": "pure-html-resume/index.html"
+      },
+      {
+        "title": "Dice Game",
+        "desc": "Play Dice Game and See Who Wins!",
+        "img": "dice-game.png",
+        "link": "dice-game/index.html"
+      },
+      {
+        "title": "Drum Kit",
+        "desc": "Try The Inner Drummer Artist In You!",
+        "img": "drumkit.png",
+        "link": "drumkit/index.html"
+      },
+      {
+        "title": "Simon Game: Follow The Color",
+        "desc": "Play & Check Your Memorization Focus! (Mobile Responsive)",
+        "img": "simongame.png",
+        "link": "simongame/index.html"
+      }
+    ]
+  },
+  {
+    "heading": "Frontend Mentor Challenges",
+    "link": "https://www.frontendmentor.io/profile/asifm37",
+    "tooltip": "Checkout these at www.frontendmentor.io",
+    "sites": [{
+        "title": "Challenge #1: Stats Preview Card",
+        "desc": "Responsive Statistics Preview Card Component using HTML & CSS Only",
+        "img": "chal-1.jpg",
+        "link": "https://asifm37.github.io/FrontEndMentor/stats-preview-card/"
+      },
+      {
+        "title": "Challenge #2: 3-Column Preview Card",
+        "desc": "Bootstrap based Responsive 3-Column Preview Card Component using HTML & CSS Only",
+        "img": "chal-2.jpg",
+        "link": "https://asifm37.github.io/FrontEndMentor/3-column-preview-card/"
+      },
+      {
+        "title": "Challenge #3: User Profile Card",
+        "desc": "Profile Card Component using Pure CSS using bit advance Background options",
+        "img": "chal-3.jpg",
+        "link": "https://asifm37.github.io/FrontEndMentor/profile-card/"
+      },
+      {
+        "title": "Challenge #4: FAQ Accordion Card",
+        "desc": "FAQ Accordion Card Component using Pure CSS. BONUS: without JS Accordion behavior",
+        "img": "chal-4.jpg",
+        "link": "https://asifm37.github.io/FrontEndMentor/faq-card/"
+      },
+      {
+        "title": "Challenge #5: Huddle Landing Page",
+        "desc": "Responsive Landing Page Using HTML & Plain CSS Only",
+        "img": "chal-5.jpg",
+        "link": "https://asifm37.github.io/FrontEndMentor/huddle-landing-page/"
+      },
+      {
+        "title": "Challenge #6: Ping Coming Soon Page",
+        "desc": "Responsive Coming Soon Landing Page with Single Column Style using only HTML & Plain CSS",
+        "img": "chal-6.jpg",
+        "link": "https://asifm37.github.io/FrontEndMentor/ping-coming-soon-page/"
+      },
+      {
+        "title": "Challenge #7: Single Price Grid component",
+        "desc": "CSS Grid Single Price Component which is Mobile Responsive",
+        "img": "chal-7.jpg",
+        "link": "https://asifm37.github.io/FrontEndMentor/single-price-grid/"
+      },
+      {
+        "title": "Challenge #8: Testimonials Grid Section",
+        "desc": "Mobile First Approach Testimonial Grid Section using CSS Grid",
+        "img": "chal-8.jpg",
+        "link": "https://asifm37.github.io/FrontEndMentor/testimonials-grid/"
+      }
+    ]
+  }
+]
