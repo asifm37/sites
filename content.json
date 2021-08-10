@@ -91,6 +91,12 @@
         "desc": "Mobile First Approach Testimonial Grid Section using CSS Grid",
         "img": "chal-8.jpg",
         "link": "https://asifm37.github.io/FrontEndMentor/testimonials-grid/"
+      },
+      {
+        "title": "Challenge #9: Article Preview Component",
+        "desc": "Mobile Responsive Article Preview Card Component Using HTML, CSS & bit of JS",
+        "img": "chal-9.jpg",
+        "link": "https://asifm37.github.io/FrontEndMentor/article-preview/"
       }
     ]
   }
