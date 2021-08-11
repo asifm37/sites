@@ -9,6 +9,12 @@
         "link": "myresume/index.html"
       },
       {
+        "title": "3D Animating Card",
+        "desc": "3D Effect Card Animation using Plain CSS & JavaScript",
+        "img": "3d-card.png",
+        "link": "3d-effect-card/index.html"
+      },
+      {
         "title": "TinDog: Tinder for Dogs? (Dummy)",
         "desc": "Check out our TinDog Website (FrontEnd Only)",
         "img": "tindog.png",
