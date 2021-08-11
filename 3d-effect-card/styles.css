@@ -81,13 +81,13 @@ body {
   color: #585858;
 }
 
-button.active {
+button:focus {
   background-color: #585858;
   color: white;
 }
 
 .purchase {
-  margin-top: 5rem;
+  margin-top: 4rem;
   transition: all 0.75s ease-out;
 }
 
@@ -100,4 +100,54 @@ button.active {
   cursor: pointer;
   border-radius: 30px;
   font-weight: bolder;
+}
+
+.purchase button:hover {
+  opacity: 0.8;
+}
+
+.purchase button:active {
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90vw;
+  }
+
+  .card {
+    min-height: 65vh;
+    width: clamp(300px, 32vw, 75vw);
+    padding: 0 2rem;
+  }
+
+  .sneaker {
+    min-height: 30vh;
+  }
+
+  .sneaker img {
+    width: 15rem;
+  }
+
+  .circle {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .info h1 {
+    font-size: 2rem;
+  }
+
+  .info h3 {
+    font-size: 1rem;
+    padding: 1rem 0;
+  }
+
+  .sizes button {
+    padding: 0.5rem 1rem;
+  }
+
+  .purchase {
+    margin: 2rem 0;
+  }
 }
