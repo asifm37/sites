@@ -111,8 +111,12 @@ button:focus {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    min-height: 90vh;
+  }
+
   .container {
-    width: 90vw;
+    width: 99vw;
   }
 
   .card {

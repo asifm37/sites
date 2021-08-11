@@ -8,15 +8,15 @@ const purchase = document.querySelector('.purchase');
 
 // Animation Event
 container.addEventListener('mousemove', (e) => rotation3d(e, 24)); //Desktop
-container.addEventListener('touchmove', (e) => rotation3d(e, 24)); //Mobile
+container.addEventListener('touchmove', (e) => rotation3d(e.changedTouches[0], 24)); //Mobile
 
 //Animate In
 container.addEventListener('mouseenter', popOut3d);
-container.addEventListener('touchenter', popOut3d);
+container.addEventListener('touchstart', popOut3d);
 
 //Animate Out - Restore
 container.addEventListener('mouseleave', popBack3d);
-container.addEventListener('touchleave', popBack3d);
+container.addEventListener('touchend', popBack3d);
 
 function rotation3d(e, scale = 24) {
   let xAxis = (window.innerWidth / 2 - e.pageX) / scale;
