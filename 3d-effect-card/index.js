@@ -7,8 +7,8 @@ const sizes = document.querySelector('.sizes');
 const purchase = document.querySelector('.purchase');
 
 // Animation Event
-container.addEventListener('mousemove', (e) => rotation3d(e, 24)); //Desktop
-container.addEventListener('touchmove', (e) => rotation3d(e.changedTouches[0], 24)); //Mobile
+container.addEventListener('mousemove', (e) => rotation3d(e, -24)); //Desktop
+container.addEventListener('touchmove', (e) => rotation3d(e.changedTouches[0], -24)); //Mobile
 
 //Animate In
 container.addEventListener('mouseenter', popOut3d);
@@ -18,7 +18,7 @@ container.addEventListener('touchstart', popOut3d);
 container.addEventListener('mouseleave', popBack3d);
 container.addEventListener('touchend', popBack3d);
 
-function rotation3d(e, scale = 24) {
+function rotation3d(e, scale = -24) {
   let xAxis = (window.innerWidth / 2 - e.pageX) / scale;
   let yAxis = (window.innerHeight / 2 - e.pageY) / scale;
   card.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
