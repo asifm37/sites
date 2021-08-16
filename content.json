@@ -103,6 +103,12 @@
         "desc": "Mobile Responsive Article Preview Card Component Using HTML, CSS & bit of JS",
         "img": "chal-9.jpg",
         "link": "https://asifm37.github.io/FrontEndMentor/article-preview/"
+      },
+      {
+        "title": "Challenge #10: Landing Page with Sign-Up form",
+        "desc": "Mobile First Landing Page with SignUp Form Using HTML & CSS, Form Validation using JS",
+        "img": "chal-10.jpg",
+        "link": "https://asifm37.github.io/FrontEndMentor/intro-signup-form/"
       }
     ]
   }
