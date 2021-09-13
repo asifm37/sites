@@ -109,6 +109,12 @@
         "desc": "Mobile First Landing Page with SignUp Form Using HTML & CSS, Form Validation using JS",
         "img": "chal-10.jpg",
         "link": "https://asifm37.github.io/FrontEndMentor/intro-signup-form/"
+      },
+      {
+        "title": "Challenge #11: Time Tracking Dashboard",
+        "desc": "Mobile First Approach Using Grid Layout with Data Rendering from a Data JSON without ReactJS",
+        "img": "chal-11.jpg",
+        "link": "https://asifm37.github.io/FrontEndMentor/time-track-dashboard/"
       }
     ]
   }
