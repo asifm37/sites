@@ -1,8 +1,10 @@
-[{
+[
+  {
     "heading": "Personal Website Challenges",
     "link": "https://github.com/asifm37/sites",
     "tooltip": "Checkout Project at GitHub",
-    "sites": [{
+    "sites": [
+      {
         "title": "My Online Resume (Dummy)",
         "desc": "Developed Using Only HTML+CSS",
         "img": "asif-profile.png",
@@ -50,7 +52,8 @@
     "heading": "Frontend Mentor Challenges",
     "link": "https://www.frontendmentor.io/profile/asifm37",
     "tooltip": "Checkout these at www.frontendmentor.io",
-    "sites": [{
+    "sites": [
+      {
         "title": "Challenge #1: Stats Preview Card",
         "desc": "Responsive Statistics Preview Card Component using HTML & CSS Only",
         "img": "chal-1.jpg",
@@ -115,6 +118,12 @@
         "desc": "Mobile First Approach Using Grid Layout with Data Rendering from a Data JSON without ReactJS",
         "img": "chal-11.jpg",
         "link": "https://asifm37.github.io/FrontEndMentor/time-track-dashboard/"
+      },
+      {
+        "title": "Challenge #12: Base Apparel Coming Soon Page",
+        "desc": "Responsive Landing Page with Manual Email Validation Form using Pure JS",
+        "img": "chal-12.jpg",
+        "link": "https://asifm37.github.io/FrontEndMentor/base-apparel-coming-soon/"
       }
     ]
   }
